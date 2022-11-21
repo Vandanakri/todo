@@ -1,0 +1,277 @@
+/* css resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* custom styles */
+
+#root{
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+/* App */
+.bg-color {
+  background-color: rgb(247, 248, 251);
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-color2 {
+  background-color: #ffff;
+  width: 29vw;
+  height: 76vh;
+  padding: 3rem;
+  margin: 2rem auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.scanner {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+.sofia{
+  display: flex;
+}
+.login{
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(22,54,95);
+}
+.sof{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(22,54,95);
+}
+
+/* Hero */
+.hero{
+  background-color: rgb(247,248,251);
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  border-radius: 0.8rem;
+  line-height: 0.8cm;
+  color: rgb(111,143,170);
+}
+strong{
+ font-weight: bolder;
+ color: rgb(107,133,158);
+}
+
+/* Login */
+.email{
+  font-size: 0.8rem;
+  color: rgb(112,140,167);
+  margin-top: 1.5rem;
+}
+.password {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: rgb(112,140,167);
+  margin-top: 1.5rem;
+}
+input{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px rgb(190, 185, 185) solid;
+  padding: 0.8rem;
+}
+.btn{
+  border: none;
+  background-color: rgb(242,83,103);
+  padding: 0.7rem;
+  width: 6.5rem;
+  border-radius: 10rem;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 9rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+}
+.login-with{
+  color: rgb(112,140,167);
+  margin-top: 2rem;
+}
+i{
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  margin-top: 1.8rem;
+  color: rgb(112,140,167);
+}
+.sign-up{
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+/* Aside */
+.aside-bg{
+  background-color: #ffff;
+  height: 100vh;
+  width: 50vw;
+}
+.aside-img{
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+.flatlogic{
+  color: rgb(112,140,167);
+  display: flex;
+  justify-content: end;
+  font-size: 0.9rem;
+  margin-right: 2rem;
+}
+
+
+
